@@ -3,16 +3,37 @@
 
 ---
 
-<p><strong>Research Question</strong></p>
+<h1 id="milestone-1-question-concepts-methods--literature">Milestone 1 Question, Concepts, Methods, &amp; Literature</h1>
+<h2 id="research-question">Research Question</h2>
+<ul>
+<li>
 <p>What is the larger context of your project?</p>
+</li>
+<li>
 <p>Why is it interesting (for you)?</p>
+</li>
+<li>
 <p>What are possible outcomes?</p>
-<p><strong>Concepts and Data</strong></p>
+</li>
+</ul>
+<h2 id="concepts-and-data">Concepts and Data</h2>
+<ul>
+<li>
 <p>What is the concrete focus of your project?</p>
+</li>
+<li>
 <p>Which musically relevant concepts do you use or study?</p>
+</li>
+<li>
 <p>How can they be operationalized?</p>
+</li>
+<li>
 <p>Which datasets can help you answer your research question?</p>
+</li>
+<li>
 <p>Do they already exist or do you need to create them?</p>
+</li>
+</ul>
 <h2 id="methods--literature">Methods &amp; Literature</h2>
 <p>In order to provide insight on the relationship between valence and complexity, we will use the work of Artemy Kolchinsky, Nakul Dhande,<br>
 Kengjeun Park and Yong-Yeol Ahn entitled “<em>The Minor fall, the Major<br>
