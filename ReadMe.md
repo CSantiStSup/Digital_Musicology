@@ -5,8 +5,15 @@
 
 <h1 id="the-relationship-between-complexity-and-emotion-in-music">The relationship between complexity and emotion in music</h1>
 <p>By Santiago Saint Supéry and Pierre-Antoine Desplaces</p>
+<h2 id="milestone-2--data-gathering-preprocessing-and-basic-statistics">Milestone 2 : Data gathering, preprocessing and basic statistics</h2>
+<p>By exploring different strategies to collect the data, an efficient manner was established to gathered the needed material. Once it was available, data wrangling and basic statistics were used to explore and understand the dataset.</p>
+<h3 id="data-gathering">Data Gathering</h3>
+<p>The use of APis to scrap Ultimate Guitar…</p>
+<h3 id="wrangling-and-sorting-decisions-and-strategies-to-get-workable-material">Wrangling and sorting: decisions and strategies to get workable material</h3>
+<h2 id="milestone-1">Milestone 1</h2>
+<p>Research question and conceptual aspects of the work.</p>
 <h2 id="research-question">Research Question</h2>
-<p>Regardless of the quantification aspect, complexity in music is a central element. Music is constructed on a theoretical structure that allows many possibilities and variations, however many modern musical pieces are structured in a simple way. Apart from this aspect, music is a mean to share emotions, and because works have been done exploring both of those aspects, we intend to explore the link between them. In this project, we aim at linking complexity and emotion in music. Our goal is to find out if and how structural complexity in music writing in its broadest sense - that is to say for both instruments and lyrics - can have an impact on the emotional valence of a given piece.</p>
+<p>Regardless of the quantification aspect, complexity in music is a central element. Music is constructed on a theoretical structure that allows many possibilities and variations, however many modern musical pieces are structured in a simple way. Apart from this aspect, music is a mean to share emotions, and because works have been done exploring both of those facets, we intend to explore the link between them. In this project, we aim at linking complexity and emotion in music. Our goal is to find out if and how structural complexity in music writing in its broadest sense - that is to say for both instruments and lyrics - can have an impact on the emotional valence of a given piece.</p>
 <h2 id="concepts-and-data">Concepts and Data</h2>
 <p>We mainly focus ourselves on each song lyrics and its musical structure. The latter can be seen as repeated harmonic progressions, mainly in the form of sequences of chords, following the lyrics.<br>
 As our core reference paper does, we will at first work with the Ultimate Guitar dataset which might be completed by using the Genius API to retrieve lyrics.<br>
