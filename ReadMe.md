@@ -10,6 +10,10 @@
 <h3 id="data-gathering">Data Gathering</h3>
 <p>The use of APis to scrap Ultimate Guitar…</p>
 <h3 id="wrangling-and-sorting-decisions-and-strategies-to-get-workable-material">Wrangling and sorting: decisions and strategies to get workable material</h3>
+<p>Raw format, sorting explanations</p>
+<h3 id="statistics-what-the-data-looks-like">Statistics: What the data looks like</h3>
+<p><span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>&nbsp;</mtext></mrow><annotation encoding="application/x-tex">~</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height: 0em;"></span><span class="strut bottom" style="height: 0em; vertical-align: 0em;"></span><span class="base"><span class="mspace">&nbsp;</span></span></span></span></span><br>
+<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mtext>&nbsp;</mtext></mrow><annotation encoding="application/x-tex">~</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height: 0em;"></span><span class="strut bottom" style="height: 0em; vertical-align: 0em;"></span><span class="base"><span class="mspace">&nbsp;</span></span></span></span></span></p>
 <h2 id="milestone-1">Milestone 1</h2>
 <p>Research question and conceptual aspects of the work.</p>
 <h2 id="research-question">Research Question</h2>
