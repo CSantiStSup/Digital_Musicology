@@ -6,14 +6,60 @@
 <h1 id="the-relationship-between-complexity-and-emotion-in-music">The relationship between complexity and emotion in music</h1>
 <p>By Santiago Saint Supéry and Pierre-Antoine Desplaces</p>
 <h2 id="milestone-2--data-gathering-preprocessing-and-basic-statistics">Milestone 2 : Data gathering, preprocessing and basic statistics</h2>
-<p>By exploring different strategies to collect the data, an efficient manner was established to gathered the needed material. Once it was available, data wrangling and basic statistics were used to explore and understand the dataset.</p>
 <h3 id="data-gathering">Data Gathering</h3>
-<p>The use of APis to scrap Ultimate Guitar…</p>
-<h3 id="wrangling-and-sorting-decisions-and-strategies-to-get-workable-material">Wrangling and sorting: decisions and strategies to get workable material</h3>
-<p>Raw format, sorting explanations</p>
-<h3 id="statistics-what-the-data-looks-like">Statistics: What the data looks like</h3>
-<p><span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow></mrow><annotation encoding="application/x-tex">
-</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height: 0em;"></span><span class="strut bottom" style="height: 0em; vertical-align: 0em;"></span><span class="base"></span></span></span></span></span></p>
+<ul>
+<li>
+<p><em><strong>How did you obtain/create it?</strong></em><br>
+Web-scrapping from the ultimate guitar API was used to gather both the textual data and the chords from Ultimate Guitar.<br>
+For the MIDI, it was a downloadable file that we directly took.</p>
+</li>
+<li>
+<p><em><strong>In which format is the data?</strong></em>*<br>
+Ultimate Guitar: text<br>
+Unsorted MIDI: MIDI</p>
+</li>
+</ul>
+<h3 id="preprocessing">Preprocessing</h3>
+<ul>
+<li>
+<p><em><strong>Transform data so that you can effectively work with it.</strong></em></p>
+</li>
+<li>
+<p><em><strong>Is there missing data that you need to account for?</strong></em></p>
+</li>
+<li>
+<p><em><strong>Do you need to deal with biases in the data? How?</strong></em><br>
+Because ultimate guitar is website for guitarists that is collaborative, it is essential to bear in mind that mostly pop-rock and easy to play songs will appear on the dataset. The same goes for the MIDI data. Since it is unsorted and coming from the internet, one must consider that the same collaborative way of working was applied. This means that the cultural bias and the oversimplicity problems are still an issue for the dataset.<br>
+In order to treat those biases we must consider them in our research methodolgy. fine graining the analysis to what this data shows is important to avoid drawing inaccurate conclusions.</p>
+</li>
+</ul>
+<h3 id="basic-statistics">Basic Statistics</h3>
+<ul>
+<li>
+<p><em><strong>How are the features of the data distributed?</strong></em></p>
+</li>
+<li>
+<p><em><strong>Can you identify correlations?</strong></em></p>
+</li>
+<li>
+<p><em><strong>What can you already infer regarding your research question?</strong></em></p>
+</li>
+<li>
+<p><em><strong>What are suitable visualizations for the initial results?</strong></em></p>
+</li>
+</ul>
+<h3 id="subsequent-steps">Subsequent steps</h3>
+<ul>
+<li>
+<p><em><strong>How will you proceed?</strong></em></p>
+</li>
+<li>
+<p><em><strong>Do you need to adjust your research plan?</strong></em></p>
+</li>
+<li>
+<p><em><strong>Which methods did you decide to use?</strong></em></p>
+</li>
+</ul>
 <h2 id="milestone-1">Milestone 1</h2>
 <p>Research question and conceptual aspects of the work.</p>
 <h2 id="research-question">Research Question</h2>
