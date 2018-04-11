@@ -6,7 +6,14 @@
 <h1 id="the-relationship-between-complexity-and-emotion-in-music">The relationship between complexity and emotion in music</h1>
 <p>By Santiago Saint Supéry and Pierre-Antoine Desplaces</p>
 <h2 id="milestone-2--data-gathering-preprocessing-and-basic-statistics">Milestone 2 : Data gathering, preprocessing and basic statistics</h2>
-<h3 id="data-gathering">Data Gathering</h3>
+<h3 id="main-guideline-to-go-through">Main guideline to go through</h3>
+<p>We worked on both the MIDI dataset and the Ultimate Guitar one, thus why there are 2 distinct notebooks to look at. You can either take a look manually in the files above or follow those links to have them in an NBviewer:</p>
+<ul>
+<li><a href="https://nbviewer.jupyter.org/github/CSantiStSup/Digital_Musicology/blob/master/MIDI_data_wrangling__Miletstone%202.ipynb">MIDI Data Wrangling and steps</a></li>
+<li><a href="link">Ultimate Guitar Data Wrangling and steps</a></li>
+</ul>
+<p>Note: There is no dataset on this repository because Ultimate Guitar was directly scrapped from the site and the MIDI file is too large to be put on Github. Detailed explanations for data structures and data sources are contained in the notebooks.</p>
+<h4 id="data-gathering">Data Gathering</h4>
 <ul>
 <li>
 <p><em><strong>How did you obtain/create it?</strong></em><br>
@@ -19,7 +26,7 @@ Ultimate Guitar: text<br>
 Unsorted MIDI: MIDI</p>
 </li>
 </ul>
-<h3 id="preprocessing">Preprocessing</h3>
+<h4 id="preprocessing">Preprocessing</h4>
 <ul>
 <li>
 <p><em><strong>Transform data so that you can effectively work with it.</strong></em></p>
@@ -33,7 +40,7 @@ Because ultimate guitar is website for guitarists that is collaborative, it is e
 In order to treat those biases we must consider them in our research methodolgy. fine graining the analysis to what this data shows is important to avoid drawing inaccurate conclusions.</p>
 </li>
 </ul>
-<h3 id="basic-statistics">Basic Statistics</h3>
+<h4 id="basic-statistics">Basic Statistics</h4>
 <ul>
 <li>
 <p><em><strong>How are the features of the data distributed?</strong></em></p>
@@ -48,7 +55,7 @@ In order to treat those biases we must consider them in our research methodolgy.
 <p><em><strong>What are suitable visualizations for the initial results?</strong></em></p>
 </li>
 </ul>
-<h3 id="subsequent-steps">Subsequent steps</h3>
+<h4 id="subsequent-steps">Subsequent steps</h4>
 <ul>
 <li>
 <p><em><strong>How will you proceed?</strong></em></p>
