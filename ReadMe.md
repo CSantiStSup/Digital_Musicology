@@ -13,60 +13,28 @@
 <li><a href="link">Ultimate Guitar Data Wrangling and steps</a></li>
 </ul>
 <p>Note: There is no dataset on this repository because Ultimate Guitar was directly scrapped from the site and the MIDI file is too large to be put on Github. Detailed explanations for data structures and data sources are contained in the notebooks.</p>
-<h4 id="data-gathering">Data Gathering</h4>
+<br>
+ #### Data Gathering
+-   ***How did you obtain/create it?***
+Web-scrapping from the ultimate guitar API was used to gather both the textual data and the chords from Ultimate Guitar.
+For the MIDI, it was a downloadable file that we directly took.
+<p>The formats are the following:</p>
 <ul>
-<li>
-<p><em><strong>How did you obtain/create it?</strong></em><br>
-Web-scrapping from the ultimate guitar API was used to gather both the textual data and the chords from Ultimate Guitar.<br>
-For the MIDI, it was a downloadable file that we directly took.</p>
-</li>
-<li>
-<p><em><strong>In which format is the data?</strong></em>*<br>
-Ultimate Guitar: text<br>
-Unsorted MIDI: MIDI</p>
-</li>
+<li>Ultimate Guitar: text</li>
+<li>Unsorted MIDI: MIDI</li>
 </ul>
 <h4 id="preprocessing">Preprocessing</h4>
-<ul>
-<li>
-<p><em><strong>Transform data so that you can effectively work with it.</strong></em></p>
-</li>
-<li>
-<p><em><strong>Is there missing data that you need to account for?</strong></em></p>
-</li>
-<li>
-<p><em><strong>Do you need to deal with biases in the data? How?</strong></em><br>
-Because ultimate guitar is website for guitarists that is collaborative, it is essential to bear in mind that mostly pop-rock and easy to play songs will appear on the dataset. The same goes for the MIDI data. Since it is unsorted and coming from the internet, one must consider that the same collaborative way of working was applied. This means that the cultural bias and the oversimplicity problems are still an issue for the dataset.<br>
-In order to treat those biases we must consider them in our research methodolgy. fine graining the analysis to what this data shows is important to avoid drawing inaccurate conclusions.</p>
-</li>
-</ul>
+<p>Because ultimate guitar is website for guitarists that is collaborative, it is essential to bear in mind that the quality of the content may be a problem. That is the reason why we chose to work with the top songs of the different genres. Taking the top is using songs that are reviewed and rated by many people, thus why it is more likely to be accurate.<br>
+We crawled into the MIDI data and the preprocessing is explained in the notebook</p>
 <h4 id="basic-statistics">Basic Statistics</h4>
-<ul>
-<li>
-<p><em><strong>How are the features of the data distributed?</strong></em></p>
-</li>
-<li>
-<p><em><strong>Can you identify correlations?</strong></em></p>
-</li>
-<li>
-<p><em><strong>What can you already infer regarding your research question?</strong></em></p>
-</li>
-<li>
-<p><em><strong>What are suitable visualizations for the initial results?</strong></em></p>
-</li>
-</ul>
+<p>Those elements are embedded in the notebooks.</p>
 <h4 id="subsequent-steps">Subsequent steps</h4>
-<ul>
-<li>
-<p><em><strong>How will you proceed?</strong></em></p>
-</li>
-<li>
-<p><em><strong>Do you need to adjust your research plan?</strong></em></p>
-</li>
-<li>
-<p><em><strong>Which methods did you decide to use?</strong></em></p>
-</li>
-</ul>
+<p>The next task will beto conduct the complexity analysis of chords using the paper of Marsik &amp; al. that we mentioned in the first milestone. This will be done on the Ultimate Guitar Data.  We must also find a wind to analyse the complexity of MIDI files.<br>
+Because we have not find any straightforward manner to analyse the MIDI format, we must keep looking for now. If nothing valuable is found until the next milestone, we will focus on the chord progression and let aside the MIDI data.</p>
+<br>
+<blockquote>
+<p><em>The following par of the ReadMe contains Milestone 1</em></p>
+</blockquote>
 <h2 id="milestone-1">Milestone 1</h2>
 <p>Research question and conceptual aspects of the work.</p>
 <h2 id="research-question">Research Question</h2>
