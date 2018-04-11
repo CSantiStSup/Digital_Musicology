@@ -23,18 +23,18 @@ For the MIDI, it was a downloadable file that we directly took.</p>
 <li><a href="https://www.reddit.com/r/WeAreTheMusicMakers/comments/3ajwe4/the_largest_midi_collection_on_the_internet/">Unsorted MIDI</a>: MIDI</li>
 </ul>
 <h5 id="important-remark-regarding-ultimate-guitar">Important remark regarding Ultimate guitar</h5>
-<p>The website was rebuilt 2 month ago, making the APIs obsolete to gather data on the website. This is the reason why we manually scrapped it. For chords we face no major issues and we are confident regarding the cleanliness of the shown output. For lyrics however, we could not find a clear and systematic way to delimitate the beginning (there are usually comments before made by the contributor and the new website’s architecture does not limitate it clearly). We had to crop the beginning of the text that did not specifically mark the beginning of the intro. This means that songs are sometimes cropped but it is the only way we found to obtain all the texts.</p>
+<p>The website was rebuilt 2 month ago, making the APIs obsolete to gather data on the website. This is the reason why we manually scrapped it. For chords we face no major issues and we are confident regarding the cleanliness of the shown output. For lyrics however, we could not find a clear and systematic way to delimitate the beginning of the tablature as there are usually comments or indications made by the author before and the html layout has no clear delimitation of this. Our technique to process this the best we could so far are detailed in the concerned notebook, but we are confident that we can improve it in the future.</p>
 <h4 id="preprocessing">Preprocessing</h4>
-<p>Because ultimate guitar is website for guitarists that is collaborative, it is essential to bear in mind that the quality of the content may be a problem. That is the reason why we chose to work with the top songs of the different genres. Taking the top is using songs that are reviewed and rated by many people, thus why it is more likely to be accurate. We therefore took the 400 top songs of the 13 top different genres from the ultimate guitar website.<br>
-We crawled into the MIDI data and the preprocessing was done manually, we chose to have a dataset that provided enough information to allow us to work on it and was diverse enough to provide information on different genres</p>
+<p>Because Ultimate Guitar is a collaborative website, it is essential to bear in mind that the quality of the content may be a problem. That is the reason why we chose to work with the top songs of the different genres. Taking the top is using songs that are reviewed and rated by many people, thus why it is more likely to be accurate. We therefore took the 400 top songs of the 13 top different genres from the ultimate guitar website.<br>
+As for the MIDI data, we chose to select only one subset (from the MIDKAR website) to have a more robust dataset that contains enough information to allow us to work on it and is diverse enough.</p>
 <h4 id="basic-statistics">Basic Statistics</h4>
 <p>Those elements are embedded in the notebooks.</p>
 <h4 id="subsequent-steps">Subsequent steps</h4>
-<p>The next task will beto conduct the complexity analysis of chords using the paper of Marsik &amp; al. that we mentioned in the first milestone. This will be done on the Ultimate Guitar Data.  We will apply TF-IDF to analyse the complexity of the vocabulary used in the lyrics. We must also find a way to analyse the complexity of MIDI files.<br>
-Because we have not find any straightforward manner to analyse the MIDI format, we must keep looking for now. If nothing valuable is found until the next milestone, we will focus on the chord progression and let aside the MIDI data.</p>
+<p>The next task will be to conduct the complexity analysis of chords using the paper of Marsik &amp; al. that we mentioned in the first milestone. This will be done on the Ultimate Guitar Data.  We will apply TF-IDF and use tge Flesch–Kincaid readability measure to analyse the complexity of the vocabulary used in the lyrics.<br>
+ We must also eventually find a way to analyse the complexity of MIDI files. If nothing valuable is found until the next milestone, we will focus on the chord progression and let aside the MIDI data.</p>
 <br>
 <blockquote>
-<p><em>The following par of the ReadMe contains Milestone 1</em></p>
+<p><em>The following part has not been modified Milestone 1</em></p>
 </blockquote>
 <h2 id="milestone-1">Milestone 1</h2>
 <p>Research question and conceptual aspects of the work.</p>
