@@ -15,23 +15,20 @@
 <p>Note: There is no dataset on this repository because Ultimate Guitar was directly scrapped from the site and the MIDI file is too large to be put on Github. Detailed explanations for data structures and data sources are contained in the notebooks.</p>
 <br>
 <h4 id="data-gathering">Data Gathering</h4>
+<p>We obtained the data using web-scrapping from the ultimate guitar website to obtain a text file containing both lyrics and chords.<br>
+For the MIDI, it was a downloadable file that we directly took.</p>
+<p>The formats are the following (click on the links to access the datasets):</p>
 <ul>
-<li><em><strong>How did you obtain/create it?</strong></em><br>
-Web-scrapping from the ultimate guitar API was used to gather both the textual data and the chords from Ultimate Guitar.<br>
-For the MIDI, it was a downloadable file that we directly took.</li>
-</ul>
-<p>The formats are the following:</p>
-<ul>
-<li>Ultimate Guitar: text</li>
-<li>Unsorted MIDI: MIDI</li>
+<li><a href="https://www.ultimate-guitar.com/">Ultimate Guitar</a>: text</li>
+<li><a href="https://www.reddit.com/r/WeAreTheMusicMakers/comments/3ajwe4/the_largest_midi_collection_on_the_internet/">Unsorted MIDI</a>: MIDI</li>
 </ul>
 <h4 id="preprocessing">Preprocessing</h4>
-<p>Because ultimate guitar is website for guitarists that is collaborative, it is essential to bear in mind that the quality of the content may be a problem. That is the reason why we chose to work with the top songs of the different genres. Taking the top is using songs that are reviewed and rated by many people, thus why it is more likely to be accurate.<br>
-We crawled into the MIDI data and the preprocessing is explained in the notebook</p>
+<p>Because ultimate guitar is website for guitarists that is collaborative, it is essential to bear in mind that the quality of the content may be a problem. That is the reason why we chose to work with the top songs of the different genres. Taking the top is using songs that are reviewed and rated by many people, thus why it is more likely to be accurate. We therefore took the 400 top songs of the 13 top different genres from the ultimate guitar website.<br>
+We crawled into the MIDI data and the preprocessing was done manually, we chose to have a dataset that provided enough information to allow us to work on it and was diverse enough to provide information on different genres</p>
 <h4 id="basic-statistics">Basic Statistics</h4>
 <p>Those elements are embedded in the notebooks.</p>
 <h4 id="subsequent-steps">Subsequent steps</h4>
-<p>The next task will beto conduct the complexity analysis of chords using the paper of Marsik &amp; al. that we mentioned in the first milestone. This will be done on the Ultimate Guitar Data.  We must also find a wind to analyse the complexity of MIDI files.<br>
+<p>The next task will beto conduct the complexity analysis of chords using the paper of Marsik &amp; al. that we mentioned in the first milestone. This will be done on the Ultimate Guitar Data.  We will apply TF-IDF to analyse the complexity of the vocabulary used in the lyrics. We must also find a way to analyse the complexity of MIDI files.<br>
 Because we have not find any straightforward manner to analyse the MIDI format, we must keep looking for now. If nothing valuable is found until the next milestone, we will focus on the chord progression and let aside the MIDI data.</p>
 <br>
 <blockquote>
