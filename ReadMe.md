@@ -10,7 +10,7 @@
 <p>We worked on both the MIDI dataset and the Ultimate Guitar one, thus why there are 2 distinct notebooks to look at. You can either take a look manually in the files above or follow those links to have them in an NBviewer:</p>
 <ul>
 <li><a href="https://nbviewer.jupyter.org/github/CSantiStSup/Digital_Musicology/blob/master/MIDI_data_wrangling__Miletstone%202.ipynb">MIDI Data Wrangling and steps</a></li>
-<li><a href="link">Ultimate Guitar Data Wrangling and steps</a></li>
+<li><a href="https://nbviewer.jupyter.org/github/CSantiStSup/Digital_Musicology/blob/master/ultimate_guitar_dataset.ipynb">Ultimate Guitar Data Wrangling and steps</a></li>
 </ul>
 <p>Note: There is no dataset on this repository because Ultimate Guitar was directly scrapped from the site and the MIDI file is too large to be put on Github. Detailed explanations for data structures and data sources are contained in the notebooks.</p>
 <br>
