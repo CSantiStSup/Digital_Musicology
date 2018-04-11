@@ -14,10 +14,12 @@
 </ul>
 <p>Note: There is no dataset on this repository because Ultimate Guitar was directly scrapped from the site and the MIDI file is too large to be put on Github. Detailed explanations for data structures and data sources are contained in the notebooks.</p>
 <br>
- #### Data Gathering
--   ***How did you obtain/create it?***
-Web-scrapping from the ultimate guitar API was used to gather both the textual data and the chords from Ultimate Guitar.
-For the MIDI, it was a downloadable file that we directly took.
+<h4 id="data-gathering">Data Gathering</h4>
+<ul>
+<li><em><strong>How did you obtain/create it?</strong></em><br>
+Web-scrapping from the ultimate guitar API was used to gather both the textual data and the chords from Ultimate Guitar.<br>
+For the MIDI, it was a downloadable file that we directly took.</li>
+</ul>
 <p>The formats are the following:</p>
 <ul>
 <li>Ultimate Guitar: text</li>
