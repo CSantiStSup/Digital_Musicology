@@ -28,6 +28,7 @@ The log comes from a scaling issue that is detailed in the notebook. A multiplic
 All the considerations that one can make with the results will be explained later.</p>
 <h2 id="analysis-of-lyrics">Analysis of lyrics</h2>
 <p>During the previous steps, we computed a complexity score using TF-IDF, and this allowed to have a measurement for each song. The details and the faults of the process were explained before, and it is not as accurate as a manual classification of lyrics because it only takes into account the vocabulary and not the entire structure of the lyrics.</p>
+<br>
 <h2 id="results">Results</h2>
 <p>The results and the discussion can be seen in the notebook, however some considerations are important to bear in mind when reading it. The complexity measurements that were established are far from grasping every aspect of what one could consider as a marker of complexity in music and in lyrics. The lexical complexity is only taking into the vocabulary and not sentence structures or rimes. The harmonic complexity is only dealing with transitions and not with pitch profiles and non-local dependencies of chords. All the interpretations that can be done must fully acknowledge the limits of such computation.</p>
 <br>
