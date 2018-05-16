@@ -9,6 +9,10 @@
 <p>As specified in the previous milestone, we chose to keep only songs which had more than 4 chords. By this we aimed at getting rid of incomplete parts of our dataset. For some lyrics, only the main chords were given, not necessarily in a complete way. We chose to keep</p>
 <h2 id="analysis-of-lyrics">Analysis of lyrics</h2>
 <p>During the previous steps, we computed a complexity score using TF-IDF, and this allowed to have a measurement for each song. The details and the faults of the process were explained before, and it is not as accurate as a manual classification of lyrics because it only takes into account the vocabulary and not the entire structure of the lyrics.</p>
+<br>
+<br>
+<br>
+<br>
 <h1 id="milestone-3">Milestone 3</h1>
 <h2 id="text-processing">Text processing</h2>
 <p>Words were assembled in clauses when we extracted them, we  splitted them into individual instances. The Term Frequency-Invert Document Frequency (TF-IDF), was used once stopwords were removed. During this process we chosed to to keep only sentences which were longer than 10 words, because shorter ones are sparsed data.</p>
